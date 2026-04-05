@@ -14,7 +14,9 @@ Gambit is a native **iOS + Apple Watch** app for trading 5-minute crypto predict
 
 ---
 
-## 🔴 The Problem
+## ⌚ GAMBIT — Prediction Markets on Your Wrist
+
+### 🔴 The Problem
 
 Prediction markets are powerful tools for price discovery and hedging, but they're trapped behind desktop-only interfaces that require technical crypto knowledge. Polymarket — the largest prediction market — has no mobile trading, no watch app, and requires manual wallet management.
 
