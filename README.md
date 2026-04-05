@@ -1,12 +1,4 @@
-<p align="center">
-  <img src="assets/banner.jpg" alt="Gambit Banner" width="100%" />
-</p>
-
-<h1 align="center">⌚ GAMBIT</h1>
-
-<p align="center">
-  <em>"The market fits on your wrist."</em>
-</p>
+<img src="assets/banner.jpg" alt="Gambit" width="100%" />
 
 <p align="center">
   <a href="#-how-it-works">How It Works</a> •
@@ -18,7 +10,7 @@
 
 ---
 
-Gambit is a native iOS + Apple Watch app for trading 5-minute crypto prediction markets. Swipe right for UP, swipe left for DOWN — trade executes in **~3 seconds**. No seed phrases, no browser extensions, no complex DeFi interfaces. Just your watch and a market opinion.
+Gambit is a native **iOS + Apple Watch** app for trading 5-minute crypto prediction markets. Swipe right for UP, swipe left for DOWN — trade executes in **~3 seconds**. No seed phrases, no browser extensions, no complex DeFi interfaces. Just your watch and a market opinion.
 
 ---
 
