@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0034D8AFD00682E80EBE397F /* AnyCodableSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37FA0C958D00E1827AFF208 /* AnyCodableSwift.xcframework */; };
+		0A8C4E6A86F3CA5354493ECE /* SharedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E574A91CE53B4E63448422 /* SharedModels.swift */; };
+		0DDAA5C62989989F00947BEA /* PriceComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC8C9FFA56845C81EF5C39 /* PriceComplication.swift */; };
+		1B062506CC3D8B1E8EC3F8D2 /* SwiftBigInt.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDE79E1859440CFD479B1D /* SwiftBigInt.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		230522B59F44FCA1FC8390C6 /* AnyCodableSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C37FA0C958D00E1827AFF208 /* AnyCodableSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2399A4E7A342010C2C6A5F6F /* PlacingOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACADD250543B48E9DBAB337 /* PlacingOrderView.swift */; };
+		246342CBEDFD1D6276E02842 /* SolanaWeb3.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD59F9E97F71BED2C0519704 /* SolanaWeb3.xcframework */; };
+		28972F770837FFD4C9712F6C /* PriceStreamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E107870192340E6AA163331 /* PriceStreamManager.swift */; };
+		2E5454C662743526D91DC623 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B0211EADE1CE26451D9F7 /* KeychainService.swift */; };
+		2E6C5C646DBE43792002F988 /* PriceCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6EFA894BBB340D22AE68F3 /* PriceCache.swift */; };
+		2F772928B9EE4E05528DE45F /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FAA20BD0D282B4C7F408B /* ConnectionManager.swift */; };
+		2F94540E0F46256B9FD39E11 /* MessageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C1BE177E0121248A00A72D /* MessageKeys.swift */; };
+		326A4194C0AA2CAF7FDBEBE7 /* MessageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C1BE177E0121248A00A72D /* MessageKeys.swift */; };
+		32E98E4EE65D51A6CF3A28C1 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2583F3010A8FE3A521EA42 /* APIClient.swift */; };
+		339DF4A4BD68BB8EA843910B /* HTTPFallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B6E6D8E2F633EFBCB87E9 /* HTTPFallback.swift */; };
+		33C63A90E81AE5532669E3EE /* ActivePositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0838CBEA1AFF187182677F9 /* ActivePositionView.swift */; };
+		363C6785A43771A37EDB8851 /* DynamicSDKSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54A4CFFE0FF58C4BE5F926F /* DynamicSDKSwift.xcframework */; };
+		3963FD7D5E3DAF8AECAA4AB1 /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF089BFDB9DB35E1DFEAFE6 /* WatchSessionManager.swift */; };
+		409CB179D78DD131E6EDF3BB /* SharedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E574A91CE53B4E63448422 /* SharedModels.swift */; };
+		428B107F41A9D81AC372705A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E697FB6DA491979655021F /* LoginView.swift */; };
+		48D3925E5A7A0EC9022CECA2 /* GambitWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41321F1D023A5A0C5F7919D /* GambitWatchApp.swift */; };
+		526C32F20DF0E2243D50D37C /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BB1EC0AA1E978EA712B43B /* WebSocketManager.swift */; };
+		531AC20BD4798FF453A14A0B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34BBA6230D1E049EF197E80 /* OnboardingView.swift */; };
+		5FE909E9C780ED15E68D6429 /* GambitWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 486A1FE36EE43D5C9DF82CE2 /* GambitWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6657B0F58625A91D013BEEA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4221E310677D3F1389B774A1 /* Assets.xcassets */; };
+		6B573C3EC06CED446E2DE124 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8906B1891B49307C01CBC48C /* AuthManager.swift */; };
+		76D710D40D3EDD2012F4DC68 /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D300E8D2AEE9930E2A028 /* MarketView.swift */; };
+		8932865959D8694399EFC6DE /* DynamicSDKSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B54A4CFFE0FF58C4BE5F926F /* DynamicSDKSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5EC2363B9773CA4657AB46A /* PriceChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C061FC91C92A10030299BF /* PriceChartView.swift */; };
+		AB2A55DFDBA2D012399F1FB1 /* GambitWatchWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 792F70C53E984339F956A633 /* GambitWatchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD56F0C4AAA3C8EFE7A83B29 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D03ECF2E69D5666FDAD85 /* DashboardView.swift */; };
+		BB1A1A5B6614D8E1749652FC /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A22E76512137E2B0BC1D057 /* Environment.swift */; };
+		BC13468F8CD7B8BE2DB4B40A /* PhoneConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB39689A87B1CF0063E1E65 /* PhoneConnector.swift */; };
+		C495BB64A25870818554B870 /* WatchMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DF18487EEB16CEEF9C648 /* WatchMainView.swift */; };
+		CA75898C2805EA4298D9263E /* GambitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5E0ACC1D11F0AC1848166 /* GambitApp.swift */; };
+		D25FB89980CFFA88E1204CD4 /* DelegationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC6A5C91F9C6A22D1CB160 /* DelegationManager.swift */; };
+		D5807D6D76CECA687CA679E4 /* SolanaWeb3.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD59F9E97F71BED2C0519704 /* SolanaWeb3.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DFC82205E6F5731C5633560D /* SwiftBigInt.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDE79E1859440CFD479B1D /* SwiftBigInt.xcframework */; };
+		E0CA798265809936F3D25E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6ABDB642D63AF22CAB02C3 /* Assets.xcassets */; };
+		EEF72CACF0546660553FCD28 /* BetHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6DD7DBEA71546CFB731D50 /* BetHistoryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9287EAB73730947C2D99C857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6EB06FE867D223D8331DD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94EAE8E072C2F19D08F6CFB3;
+			remoteInfo = GambitWatchWidgetExtension;
+		};
+		C7ED999C2608D904C2669BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6EB06FE867D223D8331DD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BD27F8F2C5EE939704B5544;
+			remoteInfo = GambitWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18E04ED120A018E2AF01FDB1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5FE909E9C780ED15E68D6429 /* GambitWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E97DC797EFAA404B577C6A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB2A55DFDBA2D012399F1FB1 /* GambitWatchWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E062299781EDA3A9979C0A85 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8932865959D8694399EFC6DE /* DynamicSDKSwift.xcframework in Embed Frameworks */,
+				1B062506CC3D8B1E8EC3F8D2 /* SwiftBigInt.xcframework in Embed Frameworks */,
+				D5807D6D76CECA687CA679E4 /* SolanaWeb3.xcframework in Embed Frameworks */,
+				230522B59F44FCA1FC8390C6 /* AnyCodableSwift.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		117D03ECF2E69D5666FDAD85 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		1A2583F3010A8FE3A521EA42 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1E107870192340E6AA163331 /* PriceStreamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceStreamManager.swift; sourceTree = "<group>"; };
+		26DC6A5C91F9C6A22D1CB160 /* DelegationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationManager.swift; sourceTree = "<group>"; };
+		2ACADD250543B48E9DBAB337 /* PlacingOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacingOrderView.swift; sourceTree = "<group>"; };
+		3E7FAA20BD0D282B4C7F408B /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		3EB39689A87B1CF0063E1E65 /* PhoneConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnector.swift; sourceTree = "<group>"; };
+		3ECDE79E1859440CFD479B1D /* SwiftBigInt.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftBigInt.xcframework; path = DynamicSDK/Frameworks/SwiftBigInt.xcframework; sourceTree = "<group>"; };
+		4221E310677D3F1389B774A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4567A438266F68D86C10E7C5 /* Gambit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gambit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4651C7232325B2615AA11F54 /* GambitWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GambitWatch.entitlements; sourceTree = "<group>"; };
+		486A1FE36EE43D5C9DF82CE2 /* GambitWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GambitWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C1BE177E0121248A00A72D /* MessageKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageKeys.swift; sourceTree = "<group>"; };
+		5A6EFA894BBB340D22AE68F3 /* PriceCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCache.swift; sourceTree = "<group>"; };
+		5C6ABDB642D63AF22CAB02C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		792F70C53E984339F956A633 /* GambitWatchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GambitWatchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEA52FCBF7A7479AFA807E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		87E697FB6DA491979655021F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8906B1891B49307C01CBC48C /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		91FC8C9FFA56845C81EF5C39 /* PriceComplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceComplication.swift; sourceTree = "<group>"; };
+		95BB1EC0AA1E978EA712B43B /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		9A22E76512137E2B0BC1D057 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		A41321F1D023A5A0C5F7919D /* GambitWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GambitWatchApp.swift; sourceTree = "<group>"; };
+		AE8DF18487EEB16CEEF9C648 /* WatchMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMainView.swift; sourceTree = "<group>"; };
+		B54A4CFFE0FF58C4BE5F926F /* DynamicSDKSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DynamicSDKSwift.xcframework; path = DynamicSDK/Frameworks/DynamicSDKSwift.xcframework; sourceTree = "<group>"; };
+		B9C061FC91C92A10030299BF /* PriceChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceChartView.swift; sourceTree = "<group>"; };
+		BD59F9E97F71BED2C0519704 /* SolanaWeb3.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SolanaWeb3.xcframework; path = DynamicSDK/Frameworks/SolanaWeb3.xcframework; sourceTree = "<group>"; };
+		C37FA0C958D00E1827AFF208 /* AnyCodableSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyCodableSwift.xcframework; path = DynamicSDK/Frameworks/AnyCodableSwift.xcframework; sourceTree = "<group>"; };
+		C64B0211EADE1CE26451D9F7 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		CCDF268FF683FE074EFDE7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CFF089BFDB9DB35E1DFEAFE6 /* WatchSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionManager.swift; sourceTree = "<group>"; };
+		D08D300E8D2AEE9930E2A028 /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		E34BBA6230D1E049EF197E80 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F0838CBEA1AFF187182677F9 /* ActivePositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivePositionView.swift; sourceTree = "<group>"; };
+		F2D5E0ACC1D11F0AC1848166 /* GambitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GambitApp.swift; sourceTree = "<group>"; };
+		F2E574A91CE53B4E63448422 /* SharedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedModels.swift; sourceTree = "<group>"; };
+		F337B0A6F38D536FD17A60D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F59B6E6D8E2F633EFBCB87E9 /* HTTPFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPFallback.swift; sourceTree = "<group>"; };
+		FDE3FA1025D33A80725EC445 /* Gambit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gambit.entitlements; sourceTree = "<group>"; };
+		FF6DD7DBEA71546CFB731D50 /* BetHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetHistoryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C56C77AB3622CFEB1A1C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363C6785A43771A37EDB8851 /* DynamicSDKSwift.xcframework in Frameworks */,
+				DFC82205E6F5731C5633560D /* SwiftBigInt.xcframework in Frameworks */,
+				246342CBEDFD1D6276E02842 /* SolanaWeb3.xcframework in Frameworks */,
+				0034D8AFD00682E80EBE397F /* AnyCodableSwift.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01762478B2FE6C45E702F840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4567A438266F68D86C10E7C5 /* Gambit.app */,
+				486A1FE36EE43D5C9DF82CE2 /* GambitWatch.app */,
+				792F70C53E984339F956A633 /* GambitWatchWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06AC8E71A23E6B75B2C8D7DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C37FA0C958D00E1827AFF208 /* AnyCodableSwift.xcframework */,
+				B54A4CFFE0FF58C4BE5F926F /* DynamicSDKSwift.xcframework */,
+				BD59F9E97F71BED2C0519704 /* SolanaWeb3.xcframework */,
+				3ECDE79E1859440CFD479B1D /* SwiftBigInt.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BEA34FA0FE84365488AEAD0 /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				F59B6E6D8E2F633EFBCB87E9 /* HTTPFallback.swift */,
+				3EB39689A87B1CF0063E1E65 /* PhoneConnector.swift */,
+			);
+			path = Connectivity;
+			sourceTree = "<group>";
+		};
+		7FECA027C6A5225EEC0D38B8 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8906B1891B49307C01CBC48C /* AuthManager.swift */,
+				26DC6A5C91F9C6A22D1CB160 /* DelegationManager.swift */,
+				C64B0211EADE1CE26451D9F7 /* KeychainService.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A422DD48AC7EA9688CFF9C52 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B9C061FC91C92A10030299BF /* PriceChartView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AA71749F18F8D5D97CA88216 = {
+			isa = PBXGroup;
+			children = (
+				D3BF3B188DDDC726631EF113 /* Gambit */,
+				E4A424F46076932D942D7533 /* GambitWatch */,
+				C892A9EB618D469586FC102E /* Shared */,
+				06AC8E71A23E6B75B2C8D7DB /* Frameworks */,
+				01762478B2FE6C45E702F840 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C652666E4A2B358D947A80A7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9A22E76512137E2B0BC1D057 /* Environment.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C892A9EB618D469586FC102E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				59C1BE177E0121248A00A72D /* MessageKeys.swift */,
+				F2E574A91CE53B4E63448422 /* SharedModels.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D082668A33B5A4E39101A22C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0838CBEA1AFF187182677F9 /* ActivePositionView.swift */,
+				FF6DD7DBEA71546CFB731D50 /* BetHistoryView.swift */,
+				D08D300E8D2AEE9930E2A028 /* MarketView.swift */,
+				2ACADD250543B48E9DBAB337 /* PlacingOrderView.swift */,
+				AE8DF18487EEB16CEEF9C648 /* WatchMainView.swift */,
+				A422DD48AC7EA9688CFF9C52 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D24BD2AF73B8CD145E86260E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1A2583F3010A8FE3A521EA42 /* APIClient.swift */,
+				95BB1EC0AA1E978EA712B43B /* WebSocketManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D3BF3B188DDDC726631EF113 /* Gambit */ = {
+			isa = PBXGroup;
+			children = (
+				4221E310677D3F1389B774A1 /* Assets.xcassets */,
+				FDE3FA1025D33A80725EC445 /* Gambit.entitlements */,
+				F2D5E0ACC1D11F0AC1848166 /* GambitApp.swift */,
+				CCDF268FF683FE074EFDE7CE /* Info.plist */,
+				7FECA027C6A5225EEC0D38B8 /* Auth */,
+				C652666E4A2B358D947A80A7 /* Config */,
+				D24BD2AF73B8CD145E86260E /* Networking */,
+				EB23A2390BC83F7B569BA4B8 /* Views */,
+				D9C6462E7B5D812513D423E6 /* WatchBridge */,
+			);
+			path = Gambit;
+			sourceTree = "<group>";
+		};
+		D60BA9CC278B09C531DB5EBB /* Complications */ = {
+			isa = PBXGroup;
+			children = (
+				7FEA52FCBF7A7479AFA807E0 /* Info.plist */,
+				91FC8C9FFA56845C81EF5C39 /* PriceComplication.swift */,
+			);
+			path = Complications;
+			sourceTree = "<group>";
+		};
+		D9C6462E7B5D812513D423E6 /* WatchBridge */ = {
+			isa = PBXGroup;
+			children = (
+				CFF089BFDB9DB35E1DFEAFE6 /* WatchSessionManager.swift */,
+			);
+			path = WatchBridge;
+			sourceTree = "<group>";
+		};
+		E4A424F46076932D942D7533 /* GambitWatch */ = {
+			isa = PBXGroup;
+			children = (
+				5C6ABDB642D63AF22CAB02C3 /* Assets.xcassets */,
+				4651C7232325B2615AA11F54 /* GambitWatch.entitlements */,
+				A41321F1D023A5A0C5F7919D /* GambitWatchApp.swift */,
+				F337B0A6F38D536FD17A60D4 /* Info.plist */,
+				D60BA9CC278B09C531DB5EBB /* Complications */,
+				7BEA34FA0FE84365488AEAD0 /* Connectivity */,
+				E7160CC0C79A6E1BB98A5FE7 /* Utilities */,
+				D082668A33B5A4E39101A22C /* Views */,
+			);
+			path = GambitWatch;
+			sourceTree = "<group>";
+		};
+		E7160CC0C79A6E1BB98A5FE7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3E7FAA20BD0D282B4C7F408B /* ConnectionManager.swift */,
+				5A6EFA894BBB340D22AE68F3 /* PriceCache.swift */,
+				1E107870192340E6AA163331 /* PriceStreamManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EB23A2390BC83F7B569BA4B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				117D03ECF2E69D5666FDAD85 /* DashboardView.swift */,
+				87E697FB6DA491979655021F /* LoginView.swift */,
+				E34BBA6230D1E049EF197E80 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BD27F8F2C5EE939704B5544 /* GambitWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B714D2B7460CE697D9C87E20 /* Build configuration list for PBXNativeTarget "GambitWatch" */;
+			buildPhases = (
+				07D46BC3988A3ED373F6120A /* Sources */,
+				355FBF0D49D2BEC0239A4F88 /* Resources */,
+				B7E97DC797EFAA404B577C6A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1562EF78818FB81B7121062E /* PBXTargetDependency */,
+			);
+			name = GambitWatch;
+			packageProductDependencies = (
+			);
+			productName = GambitWatch;
+			productReference = 486A1FE36EE43D5C9DF82CE2 /* GambitWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94EAE8E072C2F19D08F6CFB3 /* GambitWatchWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E9A20044CF8D0E060ED652 /* Build configuration list for PBXNativeTarget "GambitWatchWidgetExtension" */;
+			buildPhases = (
+				FAAF4E4A3318293364E6D68F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GambitWatchWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = GambitWatchWidgetExtension;
+			productReference = 792F70C53E984339F956A633 /* GambitWatchWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B2FD22C3AF81A9F2CEE6D3AA /* Gambit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0742AC3919E477387A858725 /* Build configuration list for PBXNativeTarget "Gambit" */;
+			buildPhases = (
+				27E6D44F6B6BFD763D7EC6B2 /* Sources */,
+				576DBCEAB05B2D8B4EAFEB9D /* Resources */,
+				09C56C77AB3622CFEB1A1C19 /* Frameworks */,
+				E062299781EDA3A9979C0A85 /* Embed Frameworks */,
+				18E04ED120A018E2AF01FDB1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02BF1C3EBB383E3D1BC88502 /* PBXTargetDependency */,
+			);
+			name = Gambit;
+			packageProductDependencies = (
+			);
+			productName = Gambit;
+			productReference = 4567A438266F68D86C10E7C5 /* Gambit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6EB06FE867D223D8331DD66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 40AC60292F618156BC820A94 /* Build configuration list for PBXProject "Gambit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AA71749F18F8D5D97CA88216;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 01762478B2FE6C45E702F840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2FD22C3AF81A9F2CEE6D3AA /* Gambit */,
+				7BD27F8F2C5EE939704B5544 /* GambitWatch */,
+				94EAE8E072C2F19D08F6CFB3 /* GambitWatchWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		355FBF0D49D2BEC0239A4F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0CA798265809936F3D25E94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576DBCEAB05B2D8B4EAFEB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6657B0F58625A91D013BEEA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D46BC3988A3ED373F6120A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C63A90E81AE5532669E3EE /* ActivePositionView.swift in Sources */,
+				EEF72CACF0546660553FCD28 /* BetHistoryView.swift in Sources */,
+				2F772928B9EE4E05528DE45F /* ConnectionManager.swift in Sources */,
+				48D3925E5A7A0EC9022CECA2 /* GambitWatchApp.swift in Sources */,
+				339DF4A4BD68BB8EA843910B /* HTTPFallback.swift in Sources */,
+				76D710D40D3EDD2012F4DC68 /* MarketView.swift in Sources */,
+				326A4194C0AA2CAF7FDBEBE7 /* MessageKeys.swift in Sources */,
+				BC13468F8CD7B8BE2DB4B40A /* PhoneConnector.swift in Sources */,
+				2399A4E7A342010C2C6A5F6F /* PlacingOrderView.swift in Sources */,
+				2E6C5C646DBE43792002F988 /* PriceCache.swift in Sources */,
+				A5EC2363B9773CA4657AB46A /* PriceChartView.swift in Sources */,
+				28972F770837FFD4C9712F6C /* PriceStreamManager.swift in Sources */,
+				409CB179D78DD131E6EDF3BB /* SharedModels.swift in Sources */,
+				C495BB64A25870818554B870 /* WatchMainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E6D44F6B6BFD763D7EC6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E98E4EE65D51A6CF3A28C1 /* APIClient.swift in Sources */,
+				6B573C3EC06CED446E2DE124 /* AuthManager.swift in Sources */,
+				AD56F0C4AAA3C8EFE7A83B29 /* DashboardView.swift in Sources */,
+				D25FB89980CFFA88E1204CD4 /* DelegationManager.swift in Sources */,
+				BB1A1A5B6614D8E1749652FC /* Environment.swift in Sources */,
+				CA75898C2805EA4298D9263E /* GambitApp.swift in Sources */,
+				2E5454C662743526D91DC623 /* KeychainService.swift in Sources */,
+				428B107F41A9D81AC372705A /* LoginView.swift in Sources */,
+				2F94540E0F46256B9FD39E11 /* MessageKeys.swift in Sources */,
+				531AC20BD4798FF453A14A0B /* OnboardingView.swift in Sources */,
+				0A8C4E6A86F3CA5354493ECE /* SharedModels.swift in Sources */,
+				3963FD7D5E3DAF8AECAA4AB1 /* WatchSessionManager.swift in Sources */,
+				526C32F20DF0E2243D50D37C /* WebSocketManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAF4E4A3318293364E6D68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDAA5C62989989F00947BEA /* PriceComplication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02BF1C3EBB383E3D1BC88502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BD27F8F2C5EE939704B5544 /* GambitWatch */;
+			targetProxy = C7ED999C2608D904C2669BA9 /* PBXContainerItemProxy */;
+		};
+		1562EF78818FB81B7121062E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94EAE8E072C2F19D08F6CFB3 /* GambitWatchWidgetExtension */;
+			targetProxy = 9287EAB73730947C2D99C857 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12FF3B235C33B5175B507262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		7B462A3813634C4A7CF2D69C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GambitWatch/GambitWatch.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2TQ5H7GQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GambitWatch/Info.plist;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.baris.gambit.app;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baris.gambit.app.watch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		957FC31193094BBC9165929A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		B521E196ED72E49B7EEE5893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2TQ5H7GQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GambitWatch/Complications/Info.plist;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baris.gambit.app.watch.widget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		CE3EA767C4DE2AA594E621E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gambit/Gambit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2TQ5H7GQ6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"DynamicSDK/Frameworks\"",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gambit/Info.plist;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Gambit needs local network access to connect to the trading server.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baris.gambit.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1F23493ACA57C1F40E48F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GambitWatch/GambitWatch.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2TQ5H7GQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GambitWatch/Info.plist;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.baris.gambit.app;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baris.gambit.app.watch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		E5879730AD4DE5661935D6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2TQ5H7GQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GambitWatch/Complications/Info.plist;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baris.gambit.app.watch.widget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		F9ADD85CD3767468F9D409B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gambit/Gambit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2TQ5H7GQ6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"DynamicSDK/Frameworks\"",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gambit/Info.plist;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Gambit needs local network access to connect to the trading server.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baris.gambit.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0742AC3919E477387A858725 /* Build configuration list for PBXNativeTarget "Gambit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9ADD85CD3767468F9D409B1 /* Debug */,
+				CE3EA767C4DE2AA594E621E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		40AC60292F618156BC820A94 /* Build configuration list for PBXProject "Gambit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FF3B235C33B5175B507262 /* Debug */,
+				957FC31193094BBC9165929A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		96E9A20044CF8D0E060ED652 /* Build configuration list for PBXNativeTarget "GambitWatchWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5879730AD4DE5661935D6F9 /* Debug */,
+				B521E196ED72E49B7EEE5893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B714D2B7460CE697D9C87E20 /* Build configuration list for PBXNativeTarget "GambitWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B462A3813634C4A7CF2D69C /* Debug */,
+				D1F23493ACA57C1F40E48F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6EB06FE867D223D8331DD66 /* Project object */;
+}
