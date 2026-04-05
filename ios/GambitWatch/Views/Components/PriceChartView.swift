@@ -17,7 +17,16 @@ struct PriceChartView: View {
 
     private var visiblePoints: [PriceHistoryPoint] {
         let cutoff = chartNow.timeIntervalSince1970 - 60
-        return priceHistory.filter { $0.timestamp >= cutoff }
+        let raw = priceHistory.filter { $0.timestamp >= cutoff }
+        // EMA smoothing (alpha=0.3) for cleaner chart
+        guard raw.count > 1 else { return raw }
+        var smoothed = [raw[0]]
+        let alpha = 0.3
+        for i in 1..<raw.count {
+            let ema = alpha * raw[i].price + (1 - alpha) * smoothed[i-1].price
+            smoothed.append(PriceHistoryPoint(timestamp: raw[i].timestamp, price: ema))
+        }
+        return smoothed
     }
 
     private var priceRange: ClosedRange<Double> {
