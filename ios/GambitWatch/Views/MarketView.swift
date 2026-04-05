@@ -151,7 +151,7 @@ class MarketViewModel: ObservableObject {
     @Published var priceChange: Double = 0
     @Published var chartNow: Date = .now  // drives the sliding window
     @Published var betAmount: Double = UserDefaults.standard.double(forKey: "defaultBetAmount").nonZero ?? 1.0
-    @Published var maxBetAmount: Double = 10
+    @Published var maxBetAmount: Double = 1
     @Published var isBetting = false
     var activePosition: Position?
 
@@ -186,10 +186,10 @@ class MarketViewModel: ObservableObject {
                 self.updatePrice(price)
             }
 
-        // Periodic balance refresh (every 30s)
+        // Periodic balance refresh (every 10s)
         Task {
             while !Task.isCancelled {
-                do { try await Task.sleep(nanoseconds: 30_000_000_000) } catch { break }
+                do { try await Task.sleep(nanoseconds: 10_000_000_000) } catch { break }
                 await refreshMaxBet()
             }
         }
